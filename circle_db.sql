@@ -32,8 +32,6 @@ CREATE TABLE `circle` (
 -- ----------------------------
 -- Records of circle
 -- ----------------------------
-INSERT INTO `circle` VALUES ('19', '新番提醒组', 'https://circle.dataface.vip/upload/20200629/b4Xybee6WdFsquEIXulvg1gC8y4hWq62BIbuQMkP.jpeg', '我会定期发相关图片哦', '8', '2020-06-29 10:24:06');
-INSERT INTO `circle` VALUES ('20', null, null, null, null, '2020-06-29 16:18:43');
 
 -- ----------------------------
 -- Table structure for `circle_user_merge`
@@ -53,9 +51,6 @@ CREATE TABLE `circle_user_merge` (
 -- ----------------------------
 -- Records of circle_user_merge
 -- ----------------------------
-INSERT INTO `circle_user_merge` VALUES ('27', '8', '19', 'Y', '2020-06-29 11:29:16', '志扬?', 'N');
-INSERT INTO `circle_user_merge` VALUES ('28', '9', '19', 'N', '2020-06-29 13:23:39', '有志飞扬', 'Y');
-INSERT INTO `circle_user_merge` VALUES ('29', '10', '19', 'N', '2020-06-29 13:37:23', 'Vicky', 'Y');
 
 -- ----------------------------
 -- Table structure for `topic`
@@ -73,9 +68,7 @@ CREATE TABLE `topic` (
 -- ----------------------------
 -- Records of topic
 -- ----------------------------
-INSERT INTO `topic` VALUES ('17', '福利图片哦', '19', '8', '2020-06-29 13:31:13');
-INSERT INTO `topic` VALUES ('18', '福利图片二', '19', '8', '2020-06-29 13:38:03');
-INSERT INTO `topic` VALUES ('19', '文件', '19', '8', '2020-06-29 14:19:17');
+
 
 -- ----------------------------
 -- Table structure for `topic_comment`
@@ -114,11 +107,6 @@ CREATE TABLE `topic_file` (
 -- ----------------------------
 -- Records of topic_file
 -- ----------------------------
-INSERT INTO `topic_file` VALUES ('24', 'jI94nI0UiqkLZoIV1S4rSOvPiSnh6MrjbQnDvQAB.jpeg', 'https://circle.dataface.vip/upload/20200629/jI94nI0UiqkLZoIV1S4rSOvPiSnh6MrjbQnDvQAB.jpeg', 'jpeg', '27123', '17', '1', '2020-06-29 13:31:13');
-INSERT INTO `topic_file` VALUES ('25', '6gDgMZt8OOI3YdgdKPulslNvb98o5W44CFwX6LN5.jpeg', 'https://circle.dataface.vip/upload/20200629/6gDgMZt8OOI3YdgdKPulslNvb98o5W44CFwX6LN5.jpeg', 'jpeg', '27123', '18', '1', '2020-06-29 13:38:03');
-INSERT INTO `topic_file` VALUES ('26', 'AZYujNQ36MUbWc6Sl4g8BbYcnrR1N3tbC2NWrUXj.png', 'https://circle.dataface.vip/upload/20200629/AZYujNQ36MUbWc6Sl4g8BbYcnrR1N3tbC2NWrUXj.png', 'png', '9275', '18', '1', '2020-06-29 13:38:03');
-INSERT INTO `topic_file` VALUES ('27', '拉数据.xls', 'https://circle.dataface.vip/upload/20200629/拉数据.xls', 'xls', '19456', '19', '2', '2020-06-29 14:19:17');
-INSERT INTO `topic_file` VALUES ('28', '2019年终总结-杨志.docx', 'https://circle.dataface.vip/upload/20200629/2019年终总结-杨志.docx', 'docx', '15978', '19', '2', '2020-06-29 14:19:17');
 
 -- ----------------------------
 -- Table structure for `topic_user_merge`
@@ -137,14 +125,6 @@ CREATE TABLE `topic_user_merge` (
 -- ----------------------------
 -- Records of topic_user_merge
 -- ----------------------------
-INSERT INTO `topic_user_merge` VALUES ('13', '17', '8', 'N', null, '2020-06-29 13:31:13');
-INSERT INTO `topic_user_merge` VALUES ('14', '17', '9', 'N', null, '2020-06-29 13:31:13');
-INSERT INTO `topic_user_merge` VALUES ('15', '18', '8', 'Y', '2020-06-29 13:51:02', '2020-06-29 13:38:03');
-INSERT INTO `topic_user_merge` VALUES ('16', '18', '9', 'Y', '2020-06-29 13:41:32', '2020-06-29 13:38:03');
-INSERT INTO `topic_user_merge` VALUES ('17', '18', '10', 'Y', '2020-06-29 14:20:31', '2020-06-29 13:38:03');
-INSERT INTO `topic_user_merge` VALUES ('18', '19', '8', 'Y', '2020-06-29 14:20:24', '2020-06-29 14:19:17');
-INSERT INTO `topic_user_merge` VALUES ('19', '19', '9', 'N', null, '2020-06-29 14:19:17');
-INSERT INTO `topic_user_merge` VALUES ('20', '19', '10', 'N', null, '2020-06-29 14:19:17');
 
 -- ----------------------------
 -- Table structure for `user`
@@ -168,9 +148,3 @@ CREATE TABLE `user` (
 -- ----------------------------
 -- Records of user
 -- ----------------------------
-INSERT INTO `user` VALUES ('8', 'oKfWv4rorBeo7BR-6fKzf_oP7PXY', '志扬?', 'https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83ep9W6iaibfWRcm3Kr4Rib5jqUZwNCyahNgAfwbYSUG5kDLc3eciaX92MT2j3DSC9SOH8WwwsNjX2FNwWA/132', '1', 'China', 'Shanghai', 'Pudong New District', null, null, '2020-06-29 10:22:58');
-INSERT INTO `user` VALUES ('9', 'oKfWv4i18-s4SZAcifeY1Tws377U', '有志飞扬', 'https://wx.qlogo.cn/mmopen/vi_32/39IyTgN0RQEQs9qIkFlA0MVMjETNpFwHMk0Jzm87gKyricIGruQnK9uxd12iatDUKgQ9SkwIMcHPvX89ic4HtcNDw/132', '0', '', '', '', null, null, '2020-06-29 10:51:29');
-INSERT INTO `user` VALUES ('10', 'oKfWv4hgyUm1lb6CoQJZi7aeAw1Y', 'Vicky', 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKV8bDlRopmEAn7j55ZJZIJ51MQM5ymFGUJeW5NhUMcIuGFMicZp8jRQ1bibjRwCiahiceAdCSrs7svag/132', '0', '', '', '', null, null, '2020-06-29 13:27:24');
-INSERT INTO `user` VALUES ('11', 'oKfWv4iJb5PxfavUipG5P1bcl7D8', '低调', 'https://wx.qlogo.cn/mmopen/vi_32/zEzJYYyj4pmr202bTLqX0VAZmXv6v2o4Az76f14T3frO4sOdfo6ia2sLD69NLsRVhaV1N0knbdcHHOzGbHhc6iaw/132', '1', 'China', 'Gansu', 'Lanzhou', null, null, '2020-06-29 16:18:21');
-INSERT INTO `user` VALUES ('12', 'oKfWv4s1zFBtnUIKURV-mq6mvsZQ', '超_越梦想', 'https://wx.qlogo.cn/mmopen/vi_32/qYIqibSGuqs0PWqXRVibqDuCbjAv8eCHRicEXfhgjWDM94ulI9VYOasicicicMDYgoFvfDIypZiaUicWrxFyWMTmvSrr8g/132', '2', 'China', 'Shandong', 'Yantai', null, null, '2020-06-29 16:18:21');
-INSERT INTO `user` VALUES ('13', 'oKfWv4nT9NhXZA-64qsd71c6-Rus', '蓝俊宏', 'https://wx.qlogo.cn/mmhead/YfoU4PWbyQagkcEHThht5SCtdib0TRibOzfwVaEEXHgVY/132', '0', '', '', '', null, null, '2020-06-29 16:38:20');
